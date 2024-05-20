@@ -2,9 +2,11 @@
   "name": "taskmanager",
   "version": "0.1.0",
   "private": true,
+  "commands": {
+    "build": "npm run build && npx prisma generate"
+  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx prisma generate",
     "start": "next start",
     "lint": "next lint"
   },
