@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "commands": {
-    "build": "npm run build && npx prisma generate"
+    "build": "npm run build"
   },
   "scripts": {
     "dev": "next dev",
